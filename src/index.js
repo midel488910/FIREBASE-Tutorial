@@ -19,6 +19,9 @@ const firebaseConfig = {
   // init services
 const db = getFirestore()
 
+firebaseConfig.firestore()
+
   // collection ref
+  const colRef = collection(db, 'books')
 
   // get collection data
